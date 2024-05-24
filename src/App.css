@@ -1,0 +1,79 @@
+/* Reiniciar alguns estilos básicos */
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 6, 107);
+  color: white;
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  margin-right: 10px;
+}
+
+.input-container input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.potions-list {
+  margin-top: 20px;
+}
+
+.potions-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.potions-list li {
+  display: flex;
+  align-items: center;
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: #ddd;
+  font-size: 18px;
+}
+
+.potion-item {
+  display: flex;
+  align-items: center;
+}
+
+.potion-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.potion-name {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.potion-value {
+  font-weight: bold;
+}
